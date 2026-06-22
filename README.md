@@ -2,9 +2,9 @@
 
 A full-stack URL shortener with custom aliases, QR codes, click analytics (geo + device + browser), link expiration, password protection, and an admin panel. Built to look and behave like a real production SaaS product, not a toy CRUD app.
 
-Live Demo: https://smartlink-personalised-url-shortner.vercel.app
-API: https://smartlink-personalised-url-shortner.onrender.com
-Built by Ayush Chauhan | github.com/AyushCh421
+🔗 Live Demo: https://smartlink-personalised-url-shortner.vercel.app
+🔌 API: https://smartlink-personalised-url-shortner.onrender.com
+👤 Built by Ayush Chauhan | github.com/AyushCh421
 
 ## Stack
 
