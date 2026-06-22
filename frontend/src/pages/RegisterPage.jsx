@@ -42,11 +42,11 @@ export default function RegisterPage() {
 
         <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm">
           <h1 className="text-xl font-bold text-gray-900 mb-1">Create your account</h1>
-          <p className="text-sm text-gray-500 mb-6">Free forever. No credit card required.</p>
+          <p className="text-sm text-gray-500 mb-6">Create your first link.</p>
 
           <form onSubmit={handleSubmit} className="space-y-4">
-            <Input label="Full name" placeholder="Alex Johnson" value={form.name} onChange={set('name')} />
-            <Input label="Email" type="email" placeholder="you@example.com" value={form.email} onChange={set('email')} />
+            <Input label="Full name" placeholder="Enter your name" value={form.name} onChange={set('name')} />
+            <Input label="Email" type="email" placeholder="Enter your email" value={form.email} onChange={set('email')} />
             <Input label="Password" type="password" placeholder="At least 6 characters" value={form.password} onChange={set('password')} />
             <Button type="submit" className="w-full" loading={loading}>Create account</Button>
           </form>

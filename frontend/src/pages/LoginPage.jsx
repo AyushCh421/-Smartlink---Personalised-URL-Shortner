@@ -43,15 +43,15 @@ export default function LoginPage() {
           <p className="text-sm text-gray-500 mb-6">Sign in to your account</p>
 
           <form onSubmit={handleSubmit} className="space-y-4">
-            <Input label="Email" type="email" placeholder="you@example.com" value={form.email} onChange={set('email')} />
-            <Input label="Password" type="password" placeholder="••••••••" value={form.password} onChange={set('password')} />
+            <Input label="Email" type="email" placeholder="Enter your email" value={form.email} onChange={set('email')} />
+            <Input label="Password" type="password" placeholder="Enter your password" value={form.password} onChange={set('password')} />
             <Button type="submit" className="w-full" loading={loading}>Sign in</Button>
           </form>
         </div>
 
         <p className="text-center text-sm text-gray-500 mt-6">
           Don't have an account?{' '}
-          <Link to="/register" className="text-primary-600 font-medium hover:underline">Sign up free</Link>
+          <Link to="/register" className="text-primary-600 font-medium hover:underline">Sign up</Link>
         </p>
       </div>
     </div>

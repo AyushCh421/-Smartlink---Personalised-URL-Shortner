@@ -25,7 +25,7 @@ export default function LandingPage() {
             Sign in
           </Link>
           <Link to="/register" className="text-sm bg-primary-500 hover:bg-primary-600 text-white font-medium px-4 py-2 rounded-lg transition-colors">
-            Get started free
+            Create Your First Link
           </Link>
         </div>
       </nav>
@@ -33,21 +33,21 @@ export default function LandingPage() {
       <section className="text-center px-6 py-24 max-w-4xl mx-auto">
         <div className="inline-flex items-center gap-2 bg-primary-50 text-primary-600 text-xs font-semibold px-3 py-1.5 rounded-full mb-6">
           <span className="w-1.5 h-1.5 bg-primary-500 rounded-full" />
-          Production-ready URL management
+          Build, share, and track links with ease
         </div>
         <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
           Links that work<br />
-          <span className="text-primary-500">harder for you</span>
+          <span className="text-primary-500">longer for you</span>
         </h1>
         <p className="text-xl text-gray-500 mb-10 max-w-2xl mx-auto leading-relaxed">
-          Shorten, brand, track, and protect your URLs. SmartLink gives you enterprise-grade link management with real-time analytics.
+          Shorten links, track engagement, and gain insights into how your content is performing.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Link
             to="/register"
             className="inline-flex items-center justify-center gap-2 bg-primary-500 hover:bg-primary-600 text-white font-semibold px-8 py-3.5 rounded-xl transition-colors text-base"
           >
-            Start for free
+            Create Your First Link
             <ArrowRight size={18} />
           </Link>
           <Link
@@ -74,25 +74,6 @@ export default function LandingPage() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      <section className="px-6 py-20 max-w-3xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">Simple pricing. No surprises.</h2>
-        <div className="bg-white border-2 border-primary-500 rounded-2xl p-8 shadow-xl shadow-primary-100">
-          <div className="text-sm font-semibold text-primary-600 mb-2">Free forever</div>
-          <div className="text-5xl font-extrabold text-gray-900 mb-6">$0 <span className="text-base font-normal text-gray-400">/month</span></div>
-          <ul className="space-y-3 text-sm text-gray-600 mb-8 text-left max-w-xs mx-auto">
-            {['Unlimited short links', 'Custom aliases', 'QR code generation', 'Click analytics', 'Password protection', 'API access'].map(f => (
-              <li key={f} className="flex items-center gap-2">
-                <Check size={16} className="text-green-500 shrink-0" />
-                {f}
-              </li>
-            ))}
-          </ul>
-          <Link to="/register" className="block text-center bg-primary-500 hover:bg-primary-600 text-white font-semibold px-6 py-3 rounded-xl transition-colors">
-            Get started now
-          </Link>
         </div>
       </section>
 
